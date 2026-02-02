@@ -17,3 +17,15 @@ Un lanceur de jeux moderne ("Scraper") pour explorer le catalogue de **FitGirl R
 1. Clonez le projet :
    ```bash
    git clone [https://github.com/VOTRE_PSEUDO/Nexus-Launcher.git](https://github.com/VOTRE_PSEUDO/Nexus-Launcher.git)
+
+2. Installez les requis :
+
+   pip install -r requirements.txt
+
+3. Lancez :
+
+   python main.py
+
+📦 Créer l'exécutable (.exe)
+
+   pyinstaller --noconsole --onefile --icon="logo.ico" --name "NexusLauncher" main.py
